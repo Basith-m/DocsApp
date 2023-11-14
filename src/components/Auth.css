@@ -1,0 +1,28 @@
+.input-container {
+    background-color: var(--body_background);
+    color: var(--body_color);
+}
+
+p {
+    color: var(--body_color); 
+}
+
+.input-field{
+    background-color: var(--body_background);
+    border: 1px solid grey;
+    padding: 10px;
+    color: var(--body_color);
+    font-weight: bold;
+}
+
+.input-field:focus {
+    background-color: var(--body_background);
+    border-color: grey; /* Border color on focus */
+    color: var(--body_color);
+}
+
+.input-field::placeholder {
+    color: grey; /* Placeholder color */
+}
+
+

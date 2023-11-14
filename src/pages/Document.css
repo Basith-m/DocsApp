@@ -1,0 +1,19 @@
+.add-box, i{
+    cursor: pointer;
+}
+
+.add-box:hover {
+    background-color: rgb(200, 200, 255);
+    color: black;
+}
+
+.custom-input{
+    background-color: transparent;
+    color: white;
+}
+
+.custom-input::placeholder {
+    color: grey;
+}
+
+
